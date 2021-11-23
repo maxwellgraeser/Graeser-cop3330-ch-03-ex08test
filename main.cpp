@@ -1,4 +1,4 @@
-#include <header.h>
+#include "header.h"
 
 
 /*
@@ -16,4 +16,6 @@ int main() {
     cin >> n;
 
     cout << "The value " << n << " is an " << determine(n);
+
+    return 0;
 }
